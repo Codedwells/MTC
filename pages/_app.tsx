@@ -1,12 +1,12 @@
 import '@/styles/globals.css';
-import { Ubuntu } from '@next/font/google';
+import { Montserrat } from "next/font/google";
 import type { AppProps } from 'next/app';
-import Layout from './components/layout';
+import {Layout} from './components/layout/index';
 
-const ubuntu = Ubuntu({ weight: '400' });
+const font = Montserrat({ weight: '500' });
 export default function App({ Component, pageProps }: AppProps) {
 	return (
-		<main className={ubuntu.className}>
+		<main className={font.className}>
 			<Layout>
 				<Component {...pageProps} />
 			</Layout>
