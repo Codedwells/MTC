@@ -4,9 +4,6 @@ export default function Document() {
 	return (
 		<Html lang='en'>
 			<Head>
-				<meta name='viewport' content='width=device-width, initial-scale=1.0' />
-				<meta http-equiv='X-UA-Compatible' content='ie=edge' />
-				<meta http-equiv='X-UA-Compatible' content='IE=7' />
 				<meta
 					name='keywords'
 					content='Tech-community,community,meetup,meet-up'
@@ -15,6 +12,13 @@ export default function Document() {
 				<meta
 					name='description'
 					content='Join a community near you. We offer you a simple way to find a community closest to you'
+				/>
+
+				<link rel="preconnect" href="https://fonts.googleapis.com" />
+				<link rel="preconnect" href="https://fonts.gstatic.com" />
+				<link
+					href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;400;500;600;700;800&family=Inter:wght@500;600;700;800;900&family=Poppins:wght@200;300;400;500;600;700;800&family=Manrope:wght@400;500;600;700&family=Raleway:wght@400;500;600;700&family=Nunito:wght@300;400;500;700&display=swap"
+					rel="stylesheet"
 				/>
 			</Head>
 			<body>

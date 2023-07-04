@@ -9,7 +9,7 @@ export const Layout = ({ children }: { children: ReactNode }) => {
 					MTC
 				</Link>
 
-				<div className=' flex space-x-8 items-center px-4'>
+				<div className=' flex space-x-8 font-Nunito font-sm items-center px-4'>
 					<Link href='/about'>About</Link>
 					<Link href='/about'>Feed</Link>
 					<Link href='/about'>Communities</Link>

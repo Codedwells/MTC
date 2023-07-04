@@ -1,7 +1,9 @@
 import Head from 'next/head';
 import Image from 'next/image';
+import { Heading } from '@chakra-ui/react'
 
-import bannerImage from '../public/banner.png'
+// @ts-ignore
+import bannerImage from '../assets/banner.png'
 
 export default function Home() {
 	return (
@@ -19,7 +21,7 @@ export default function Home() {
 					/>
 				</div>
 				<div className=''>
-					<p className='font-700 text-[3em] whitespace-normal max-w-[18rem] pt-[3rem]'>Welcome to the community</p>
+					<p className='font-700 text-[3em] lgs:text-[4em] text-gray-700 leading-tight whitespace-normal font-Inter font-[900] max-w-[18rem] lgs:max-w-[25rem] lgs:text-center pt-[3rem]'>Welcome to the community</p>
 				</div>
 			</section>
 		</>
